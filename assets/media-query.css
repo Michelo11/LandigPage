@@ -1,0 +1,52 @@
+@media (min-width:600px) and (max-width: 1024px) {
+    body{
+        background-size: 100%;
+        background-position: bottom;
+    }
+
+    .image{
+        width: 300px;
+    }
+
+
+    .sub-title {
+        margin-top: 100px;
+        margin-left: 50px;
+        font-weight: normal;
+    }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    body, .all-page{
+        background: transparent;
+        overflow-y: hidden;
+    }
+
+    .logo {
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+
+    li {
+        margin: 0 !important;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .menu {
+        margin-top: -20px;
+    }
+
+    .home {
+        margin-bottom: 500px;
+    }
+
+    h1, h2, p, .button {
+        margin-left: 20px !important;
+    }
+}
